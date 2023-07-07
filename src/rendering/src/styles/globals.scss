@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply t-bg-white t-text-black t-font-sans t-antialiased
+}
+
+section.spaced {
+  @apply t-py-24 t-px-8
+}
+
+

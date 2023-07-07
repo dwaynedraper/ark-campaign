@@ -1,0 +1,86 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Compassion",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "pageContentTemplates",
+                "path": "/sitecore/templates/Project/Page Content",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "branchTemplates",
+                "path": "/sitecore/templates/Branches/Project/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/Project/Compassion",
+                "allowedPushOperations": "CreateOnly",
+                "rules": [
+                    {
+                        "path": "/Content",
+                        "allowedPushOperations": "CreateOnly",
+                        "scope": "ItemAndChildren"
+                    },
+                    {
+                        "path": "/Rendering Thumbnails",
+                        "allowedPushOperations": "CreateUpdateAndDelete",
+                        "scope": "ItemAndDescendants"
+                    }
+                ]
+            },
+            {
+                "name": "placeholderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "layoutSettings",
+                "path": "/sitecore/layout/Layouts/Foundation/JSS Experience Accelerator/Presentation/JSS Layout",
+                "allowedPushOperations": "CreateOnly",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "speScripts",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "contentRoot",
+                "path": "/sitecore/content/Compassion",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "rules": [
+                    {
+                        "path": "/Compassion/Compassion Campaigns/Home",
+                        "scope": "SingleItem",
+                        "allowedPushOperations": "CreateOnly"
+                    },
+                    {
+                        "path": "/Compassion/Compassion Campaigns/Home/*",
+                        "scope": "Ignored"                    
+                    },                    
+                    {
+                        "path": "/Compassion/Compassion Campaigns/Data/Option Lists",
+                        "scope": "ItemAndDescendants",
+                        "allowedPushOperations": "CreateUpdateAndDelete"
+                    },                    {
+                        "path": "/Compassion/Compassion Campaigns/Data",
+                        "scope": "ItemAndChildren",
+                        "allowedPushOperations": "CreateOnly"
+                    }
+                ]
+            }
+        ]
+    }
+}

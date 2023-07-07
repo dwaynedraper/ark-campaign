@@ -1,0 +1,8 @@
+services:  
+  mssql-init:
+    deploy:
+      replicas: 0
+
+  solr-init:
+    deploy:
+      replicas: 0

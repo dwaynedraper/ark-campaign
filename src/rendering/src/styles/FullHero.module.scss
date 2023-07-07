@@ -1,0 +1,51 @@
+// Upper level class for applying background image styling
+.hero {
+  @apply t-bg-no-repeat t-bg-cover t-overflow-hidden
+}
+
+// Centered container for the hero content
+.container {
+  @apply t-container t-mx-auto t-flex
+}
+
+.containerLeft {
+  @apply t-justify-start
+}
+
+.containerRight {
+  @apply t-justify-end
+}
+
+.containerCenter {
+  @apply t-justify-center
+}
+
+// Call to action container
+.cta {
+  @apply t-flex t-flex-col
+}
+
+.ctaLeft {
+  @apply t-justify-start
+}
+
+.ctaCenter {
+  @apply t-justify-center
+}
+
+// Heading text inside the CTA
+.heading {
+  @apply t-text-7xl t-font-bold t-mb-12 t-max-w-5xl
+}
+
+.headingCenter {
+  @apply t-text-center
+}
+
+.headingDark {
+  @apply t-text-black
+}
+
+.headingLight {
+  @apply t-text-white
+}

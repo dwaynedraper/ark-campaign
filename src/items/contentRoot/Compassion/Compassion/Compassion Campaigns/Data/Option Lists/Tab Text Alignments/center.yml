@@ -1,0 +1,35 @@
+﻿---
+ID: "93e1d0eb-bb64-48d6-bda4-8287540e3410"
+Parent: "42bb9bdf-3619-4b3c-a4f1-f06fb46534c9"
+Template: "06804036-0a82-4f16-9874-2b9d89adc304"
+Path: /sitecore/content/Compassion/Compassion/Compassion Campaigns/Data/Option Lists/Tab Text Alignments/center
+SharedFields:
+- ID: "98b205b4-acb1-46b5-b2ba-616be5e302ba"
+  Hint: Value
+  Value: center
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230628T220420Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eea10899-ee12-46c8-bb5a-a811d148bec0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230628T220420Z

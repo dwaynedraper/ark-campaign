@@ -1,0 +1,38 @@
+﻿---
+ID: "57046326-9a40-4f9d-9b7e-74660b358acb"
+Parent: "06804036-0a82-4f16-9874-2b9d89adc304"
+Template: "06804036-0a82-4f16-9874-2b9d89adc304"
+Path: /sitecore/templates/Project/Page Content/Structure/Name Value/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/businessv2/32x32/gold_bar.png
+- ID: "98b205b4-acb1-46b5-b2ba-616be5e302ba"
+  Hint: Value
+  Value: $name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230621T213028Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b123211-73c9-4fa7-a25c-84c3a56eb8de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230628T222614Z

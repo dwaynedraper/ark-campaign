@@ -1,0 +1,23 @@
+﻿---
+ID: "eee6b98c-212d-4e50-9656-c473d7f7eca0"
+Parent: "630d2055-ed26-4e01-a988-0df46109394e"
+Template: "630d2055-ed26-4e01-a988-0df46109394e"
+Path: /sitecore/templates/Project/Page Content/Structure/Landing Page/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230703T202233Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6813be7c-d06e-45a1-b7c6-488887e95c6c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230703T202233Z

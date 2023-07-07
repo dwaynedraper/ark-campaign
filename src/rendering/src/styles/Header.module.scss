@@ -1,0 +1,11 @@
+.header { 
+  @apply t-bg-white t-text-primary t-font-sans t-p-4 t-px-8 t-w-full t-h-[80px] 
+} 
+
+.headerReverse { 
+  @apply t-bg-primary t-text-white t-font-sans t-p-4 t-px-8 t-w-full t-h-[80px] 
+} 
+
+.container { 
+  @apply t-container t-mx-auto t-h-full t-flex t-justify-between t-items-center 
+}

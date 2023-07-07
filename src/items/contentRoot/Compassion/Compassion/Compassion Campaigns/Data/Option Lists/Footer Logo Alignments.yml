@@ -1,0 +1,31 @@
+﻿---
+ID: "f95b4653-0f37-4eef-b34d-2b63d2c6911a"
+Parent: "582bdad3-8fa3-419c-a87f-99ccc7738787"
+Template: "100ee64b-f88c-424c-8b96-669b45f04e43"
+Path: /sitecore/content/Compassion/Compassion/Compassion Campaigns/Data/Option Lists/Footer Logo Alignments
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230628T220333Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd538e27-a3bb-4d49-8a43-8fa7d5fe983f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230628T222052Z

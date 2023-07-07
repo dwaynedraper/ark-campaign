@@ -1,0 +1,26 @@
+//Outer container
+.container {
+  @apply t-container t-mx-auto md:t-flex t-h-96 t-flex t-items-center
+}
+
+// Image container
+.image {
+  @apply t-w-full md:t-w-[40%] t-bg-no-repeat t-bg-cover t-h-96
+}
+
+// Call to action container
+.cta {
+  @apply t-w-full md:t-w-[60%] t-flex t-flex-col t-mx-8
+}
+
+.heading {
+  @apply t-text-7xl t-font-bold t-mb-12 t-max-w-5xl
+}
+
+.headingLight {
+  @apply t-text-white
+}
+
+.headingDark {
+  @apply t-text-black
+}

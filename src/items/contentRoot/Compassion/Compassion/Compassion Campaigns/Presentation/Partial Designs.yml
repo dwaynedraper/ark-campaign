@@ -1,0 +1,35 @@
+﻿---
+ID: "da0c6e7d-ab63-4058-8356-181ef3a02e67"
+Parent: "d436efd2-9ea0-4dec-a276-16f5694a2942"
+Template: "359ea9ad-7acf-4441-a777-d25a90406442"
+Path: /sitecore/content/Compassion/Compassion/Compassion Campaigns/Presentation/Partial Designs
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6FFEA9C9-E545-4F68-AB18-9917B1B44BC4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230627T182754Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2304657c-3dc9-4ec0-a2e4-76d1fda7eb6d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230627T182754Z

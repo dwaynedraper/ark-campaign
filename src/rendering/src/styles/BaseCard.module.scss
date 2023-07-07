@@ -1,0 +1,12 @@
+
+.card {
+  @apply t-shadow-lg t-rounded-lg t-m-8 t-p-0 t-w-full t-relative
+}
+
+.card-img {
+  @apply t-mb-2 t-rounded-tl-lg t-rounded-tr-lg
+}
+
+.card-body {
+  @apply t-p-4
+}

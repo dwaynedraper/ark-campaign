@@ -1,0 +1,42 @@
+﻿---
+ID: "363f3501-8ede-448c-97f8-7055a11b172f"
+Parent: "7e51218f-5a15-4cba-982f-b298efe70179"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/Compassion/Compassion/Compassion Campaigns/Presentation/Placeholder Settings/headless-main"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "headless-main"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {DD060912-BBAC-4310-A0CE-CC983FEB4864}
+    {7D9FE898-3810-4C99-AF70-564294A16C6B}
+    {544FD30F-3BBE-41E8-B760-90453AAFEABE}
+    {328FAE22-1549-47C4-9407-041B2922CC97}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230628T184116Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e05fad7e-9f25-4097-9773-38decc401365"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230629T162419Z

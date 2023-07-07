@@ -1,0 +1,85 @@
+﻿---
+ID: "cdf9c727-2597-4478-aa05-273814ee6b5a"
+Parent: "9842d7c0-1bb1-4eb8-80a9-bdf3e914b92a"
+Template: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Path: /sitecore/content/Compassion/Compassion/Compassion Campaigns/Settings
+SharedFields:
+- ID: "0129da3f-8c86-4591-ae32-6ec923413923"
+  Hint: DictionaryDomain
+  Value: "{40C9F4C2-3198-4A50-8049-E629CD059FC4}"
+- ID: "1864e99d-c29a-40bf-96e0-b3e7896a013b"
+  Hint: UseLanguageSpecificLayout
+  Value: 
+- ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
+  Hint: RouteTemplateName
+  Value: Settings Route
+- ID: "30e0a829-637e-478c-a136-66adb568398d"
+  Hint: GraphQLEndpoint
+  Value: "/api/compassion-campaigns"
+- ID: "32ce6bbe-4217-46e5-9335-42793884cbe3"
+  Hint: AppTemplate
+  Value: "{76EC8A7F-B65A-435F-B5B6-0081B6AAE903}"
+- ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
+  Hint: Name
+  Value: "compassion-campaigns"
+- ID: "5764d2d4-724d-4313-a81b-9246c911faff"
+  Hint: AppDatasourcesPath
+  Value: "{C6870DAC-71B4-4A46-88A6-4DA264F7697E}"
+- ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
+  Hint: PlaceholdersPath
+  Value: "{77B53222-5E23-4031-9A15-B58991399BB7}"
+- ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
+  Hint: FilesystemPath
+  Value: "/dist/compassion-campaigns"
+- ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
+  Hint: DeploymentSecret
+  Value: a27bmu7hg5cim7fa6notrr0jt9plubyh1bl7u4xp47wv8
+- ID: "89849738-34ee-46bc-b525-825f1153189e"
+  Hint: ServerSideRenderingEngineEndpointUrl
+  Value: "http://rendering:3000/api/editing/render"
+- ID: "9016141c-ff51-40f2-9135-40f5161b9784"
+  Hint: ServerSideRenderingEngine
+  Value: http
+- ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
+  Hint: DictionaryPath
+  Value: "{40C9F4C2-3198-4A50-8049-E629CD059FC4}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2000
+- ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
+  Hint: LayoutPath
+  Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{C5C89237-0865-419F-9E26-4625011509D8}"
+- ID: "f29428d5-1285-48b8-a884-44057965829a"
+  Hint: RenderingsPath
+  Value: "{FD3699C3-C81C-4E7C-90B0-958A9A314C1A}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0FEEB907-58F0-44DE-B08C-2F43C063D0A5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230627T182753Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5e8ed724-126a-4bb7-8106-85c2d1042c9e"
+      Hint: ServerSideRenderingEngineApplicationUrl
+      Value: "http://rendering:3000"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b201eb80-e311-4d7d-9b7d-8ddaa813e3cf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230628T185640Z

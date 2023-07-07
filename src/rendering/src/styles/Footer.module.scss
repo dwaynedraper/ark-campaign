@@ -1,0 +1,15 @@
+.footer {
+  @apply t-bg-primary t-text-white t-font-sans t-antialiased t-py-12 t-px-8 t-flex t-flex-col
+}
+
+.footer-container {
+  @apply t-flex t-flex-col md:t-flex-row t-justify-between t-font-light t-container t-mx-auto
+}
+
+.logo-container {
+  @apply t-mb-12 md:t-mb-0
+}
+
+.social {
+  @apply t-mt-8 t-flex t-container t-mx-auto
+}

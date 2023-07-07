@@ -1,0 +1,59 @@
+.hero {
+  @apply t-relative t-overflow-hidden t-flex t-items-center
+}
+
+.imageLeft {
+  @apply t-bg-left
+}
+
+.imageRight {
+  @apply t-bg-right
+}
+
+.imageFull {
+  @apply t-bg-cover
+}
+
+.heading {
+  @apply t-text-4xl t-font-bold t-pb-4
+}
+
+.headingLeft {
+  @apply t-ml-8 md:t-ml-0 t-mr-auto
+}
+
+.headingCenter {
+  @apply t-text-center
+}
+
+.headingRight {
+  @apply t-ml-auto t-mr-8
+}
+
+.headingDark {
+  @apply t-text-black
+}
+
+.headingLight {
+  @apply t-text-white
+}
+
+.cta {
+  @apply t-flex t-flex-col t-mx-8 md:t-mx-0
+}
+
+.ctaLeft {
+  @apply t-justify-start
+}
+
+.ctaCenter {
+  @apply t-items-center
+}
+
+.ctaRight {
+  @apply t-justify-end
+}
+
+.container {
+  @apply t-container t-mx-auto
+}

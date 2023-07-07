@@ -1,0 +1,15 @@
+.container {
+  @apply t-container t-mx-auto
+}
+
+.heading {
+  @apply t-text-6xl t-mb-2
+}
+
+.subheading {
+  @apply t-mb-8
+}
+
+.cardGrid {
+  @apply t-w-full t-flex t-flex-col t-flex-wrap md:t-flex-row t-justify-between
+}

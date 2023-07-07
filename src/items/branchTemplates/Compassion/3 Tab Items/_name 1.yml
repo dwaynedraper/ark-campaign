@@ -1,0 +1,26 @@
+﻿---
+ID: "fb3c3535-97b1-49cf-be7b-f310c2044166"
+Parent: "fc635b86-d8da-45ea-b9ae-de9a5425cc1f"
+Template: "d323122e-13f6-46f8-ad66-d0644c822d39"
+Path: /sitecore/templates/Branches/Project/Compassion/3 Tab Items/$name 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230703T201516Z
+    - ID: "3d90a91f-b554-4603-8262-ece449b57a16"
+      Hint: tabTitle
+      Value: $name 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3612419d-9800-4566-bfa9-4b40e3da49c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230703T201516Z

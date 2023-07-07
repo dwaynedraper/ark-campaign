@@ -1,0 +1,27 @@
+# Compassion Pipeline
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "trigger" || $CI_PIPELINE_SOURCE == "web" '  #manual trigger from gitlab interface
+      when: always
+    - when: never
+
+stages:          # List of stages for jobs, and their order of execution
+  - deploy
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+#  when: manual
+#  variables:
+#    GIT_STRATEGY: none # no need to do any git
+  tags: 
+    - sitecore #this tag is needed to run on runner machine
+  script:
+    - 'Write-Output Deploying to Sitecore. Environment: $env:env'
+  # Get GitLab Runner root path
+    - '$env:CI_RUNNER_ROOT = "$env:CI_BUILDS_DIR".substring(0,$env:CI_BUILDS_DIR.Length - 6)'
+    - Write-Host "Match environment to branch and set env variable"
+    - './scripts/ci-setEnvironment.ps1'
+    - './scripts/ci-getEnvironment.ps1'
+    - './scripts/ci-deploy.ps1'
+    - echo "Application successfully deployed."
